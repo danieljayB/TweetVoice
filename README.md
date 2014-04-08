@@ -5,7 +5,7 @@ TweetVoice
 
  Android API SpeechRecognizer class integrated with Twitter API.
  
- Requirements: Processing, Twitter4J 
+ Requirements: Processing IDE, Twitter4J, Android Mode/Android SDK 4.0
  
  
  This software is an intended for an interactive art piece. I am hoping the users of the software will inform me of their work involved utilizing the source code, along with their process (video/photo documentation). I  personally have tested the software embedded on an Android mini PC (specifically an MK802 model running 4.0.4 OS. You can find one here: https://www.miniand.com/products/MK802%20Android%20Mini%20PC#specifications) and plan to install within highly populated public places (bars, Millennium Park in Chicago, etc) to add a level of survelliance to the dialogues within my local community. 
