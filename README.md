@@ -23,5 +23,5 @@ Cheers,
 
 Daniel Jay Bertner
 
-danbertner.com
+http://danbertner.com
 
