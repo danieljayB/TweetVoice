@@ -12,3 +12,11 @@ TweetVoice
  The project ideally will manifest into many forms (by the user base), but my primarly conceptual interests lie in the ecosystems of social media platforms. I am interested in utilizing this technolgy of speech synthesis to unfilter ourselves and those around us, so we can truly express our sincere form (our real world dialogues) through social media. The internet as a whole lets us filter/change ourselves (for the most part) and create a persona that may not be a direct reflection of ourselves. I hope to investigate this further, and remove this ability of the users, specifically with the social media platform Twitter.  
 
 
+You can find my personal Twitter stream utilizing this tool here:
+
+https://twitter.com/chicagodialogue
+
+
+Cheers, Daniel Jay Bertner
+danbertner.com
+
