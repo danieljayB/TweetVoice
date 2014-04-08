@@ -1,5 +1,7 @@
 TweetVoice
 ==========
+![alt tag](https://pbs.twimg.com/profile_images/430120044647813120/2uWpYZQd.png)
+
 
  Android API SpeechRecognizer class integrated with Twitter API.
  
