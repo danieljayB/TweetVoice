@@ -8,10 +8,12 @@ TweetVoice
  Requirements: Processing IDE, Twitter4J, Android Mode/Android SDK 4.0
  
  
- This software is an intended for an interactive art piece. I am hoping the users of the software will inform me of their work involved utilizing the source code, along with their process (video/photo documentation). I  personally have tested the software embedded on an Android mini PC (specifically an MK802 model running 4.0.4 OS. You can find one here: https://www.miniand.com/products/MK802%20Android%20Mini%20PC#specifications) and plan to install within highly populated public places (bars, Millennium Park in Chicago, etc) to add a level of survelliance to the dialogues within my local community. 
+ This software is an intended for an interactive art piece. I am hoping the users of the software will inform me of their work utilizing this source code, along with their process (video/photo documentation). I  personally have tested the software on an Android mini PC (specifically an MK802 model running firmware 4.0+ . Android PC here: https://www.miniand.com/products/MK802%20Android%20Mini%20PC#specifications)
+ 
+ I plan to install within highly populated public locations (bars, Millennium Park in Chicago, etc) to add a level of survelliance to the dialogues throughout the community. 
  
  
- The project ideally will manifest into many forms (by the user base), but my primarly conceptual interests lie in the ecosystems of social media platforms. I am interested in utilizing this technolgy of speech synthesis to unfilter ourselves and those around us, so we can truly express our sincere form (our real world dialogues) through social media. The internet as a whole lets us filter/change ourselves (for the most part) and create a persona that may not be a direct reflection of ourselves. I hope to investigate this further, and remove this ability of the users, specifically with the social media platform Twitter.  
+ The project ideally will manifest into many forms (by the user base), but my primarly interests lie in the ecosystems of social media platforms. By utilizing the technolgy of speech synthesis, I hope to unfilter our dialogues and the dialogues around us through social media platforms. The internet as a whole lets us filter/modify ourselves (for the most part) and create a delicately constructed persona intended for our particular social media platform of choice. I hope to investigate this further, and remove this ability of the users, specifically with the social media platform Twitter.  
 
 
 Installation: drag the entire 'TweetVoice' folder nested within the main TweetVoice folder into your sketch folder of the Processing IDE.
