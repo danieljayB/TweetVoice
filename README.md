@@ -29,3 +29,8 @@ Daniel Jay Bertner
 
 http://danbertner.com
 
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/m-x-O7O9vC4/0.jpg)](http://www.youtube.com/watch?v=m-x-O7O9vC4)
+
+
+
