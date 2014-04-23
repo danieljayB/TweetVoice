@@ -15,7 +15,13 @@ TweetVoice
  I plan to install within highly populated public locations (bars, Millennium Park in Chicago, etc) to add a level of survelliance to the dialogues throughout the community. 
  
  
- The project ideally will manifest into many forms (by the user base), but my primarly interests lie in the ecosystems of social media platforms. By utilizing the technolgy of speech synthesis, I hope to unfilter our dialogues and the dialogues around us through social media platforms. The internet as a whole lets us filter/modify ourselves (for the most part) and create a delicately constructed persona intended for our particular social media platform of choice. I hope to investigate this further, and remove this ability of the users, specifically with the social media platform Twitter.  
+ The project ideally will manifest into many forms (by the user base), but my primarly interests lie in the ecosystems of social media platforms. 
+ 
+ The device/source code (personally used) is continuously listening to new conversations, and once processed, posts online for all to read/follow/engage. Social platforms like Twitter, Facebook, Instagram, etc allow us to (somewhat) control our content viewed by others.  All of these platforms let us create an online version of ourselves, creating an idealozied perception viewable by our friends, followers, etc. I created  this device to un filter our offline dialogues, and directly bridge them online (specially through Twitter).
+
+
+
+
 
 
 Installation: drag the entire 'TweetVoice' folder nested within the main TweetVoice folder into your sketch folder of the Processing IDE.
