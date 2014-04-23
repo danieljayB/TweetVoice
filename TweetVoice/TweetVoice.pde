@@ -14,6 +14,9 @@ ______            _      _     ___              ______           _              
 
 Chicago Dialogues source code. Utilizes Androids SpeechRecognizer class to process speech, then post to twitter.  
  
+http://danbertner.com/
+https://github.com/danieljayB/TweetVoice
+
  
  This work is licensed under the Creative Commons Attribution 4.0 International License. 
  To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
