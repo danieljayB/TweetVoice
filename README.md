@@ -12,7 +12,7 @@ TweetVoice
  
  ![alt tag](https://raw.githubusercontent.com/danieljayB/TweetVoice/master/TweetVoice/illustration.png)
  
- I plan to install within highly populated public locations (bars, Millennium Park in Chicago, etc) to add a level of survelliance to the dialogues throughout the community. 
+ I plan to install within highly populated public locations (bars, Millennium Park in Chicago, etc) to add a level of survelliance to the dialogues throughout the community (consensually within specified locations) 
  
  
  The project ideally will manifest into many forms (by the user base), but my primarly interests lie in the ecosystems of social media platforms. 
