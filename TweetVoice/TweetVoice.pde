@@ -1,25 +1,6 @@
 /*
 
-
-______            _      _     ___              ______           _                     _____  _____  __   _____  
-|  _  \          (_)    | |   |_  |             | ___ \         | |                   / __  \|  _  |/  | |____ | 
-| | | |__ _ _ __  _  ___| |     | | __ _ _   _  | |_/ / ___ _ __| |_ _ __   ___ _ __  `' / /'| |/' |`| |     / / 
-| | | / _` | '_ \| |/ _ \ |     | |/ _` | | | | | ___ \/ _ \ '__| __| '_ \ / _ \ '__|   / /  |  /| | | |     \ \ 
-| |/ / (_| | | | | |  __/ | /\__/ / (_| | |_| | | |_/ /  __/ |  | |_| | | |  __/ |    ./ /___\ |_/ /_| |_.___/ / 
-|___/ \__,_|_| |_|_|\___|_| \____/ \__,_|\__, | \____/ \___|_|   \__|_| |_|\___|_|    \_____/ \___/ \___/\____/  
-                                          __/ |                                                                  
-                                         |___/                                                                   
-
-
-
-Chicago Dialogues source code. Utilizes Androids SpeechRecognizer class to process speech, then post to twitter.  
- 
-http://danbertner.com/
-https://github.com/danieljayB/TweetVoice
-
- 
- This work is licensed under the Creative Commons Attribution 4.0 International License. 
- To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ Simple voice recognizer
  
  
  */
@@ -54,16 +35,20 @@ import twitter4j.util.*;
 import twitter4j.internal.http.*;
 import twitter4j.*;
 
-// your personal Twitter application credentials. 
-
-static String OAuthConsumerKey = "";
-static String OAuthConsumerSecret = "";
-static String AccessToken = "";
-static String AccessTokenSecret = "";
+static String OAuthConsumerKey = "qngjBaWea23lPpL9dPnXCg";
+static String OAuthConsumerSecret = "Dv5iNuzh05IJ1TOAqGEBnxkb1zgNZ3575nj7X0Ho";
+static String AccessToken = "2257367420-fHlmB99qBBR0UyQZr45nu1p59reS433Yg6ksdDc";
+static String AccessTokenSecret = "8wht8MJALl11WjAsXMRQhuleV8uaSn32veSeN8vR7M4io";
 
 Twitter twitter = new TwitterFactory().getInstance();
 
 
+
+/************************************************************************
+ 
+ --------------------------------  DATAS ---------------------------------
+ 
+ *************************************************************************/
 PFont androidFont;
 String [] fontList;
 int VOICE_RECOGNITION_REQUEST_CODE = 1234;
@@ -76,7 +61,11 @@ int nextTimer, counter;
 public SpeechRecognizer sr;
 boolean post = false;
 
-
+/************************************************************************
+ 
+ --------------------------------  SETUP ---------------------------------
+ 
+ *************************************************************************/
 void setup() {
   size(displayWidth, displayHeight);
   //orientation(LANDSCAPE);
@@ -85,6 +74,19 @@ void setup() {
   textFont(androidFont);
   loginTwitter();
 
+/*
+
+  PackageManager pm = getPackageManager();
+  ArrayList<ResolveInfo> activities = (ArrayList<ResolveInfo>)pm.queryIntentActivities(
+  new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH), 0);
+  if (activities.size() != 0) {
+   // text("il y a un recognizer!", 20, 60);
+  } 
+  else {
+    //text("Recognizer not present", 20, 60);
+  }
+  
+  */
 }
 
 
