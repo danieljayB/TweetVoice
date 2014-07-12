@@ -37,7 +37,7 @@ import twitter4j.internal.http.*;
 import twitter4j.*;
 
 
-
+//your credentials from your twitter app
 static String OAuthConsumerKey = "";
 static String OAuthConsumerSecret = "";
 static String AccessToken = "";
