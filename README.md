@@ -7,8 +7,10 @@ TweetVoice
  
  Requirements: Processing IDE, Twitter4J, Android Mode/Android SDK 4.0
  
+ This software utilizies the Android SpeechRecognizer class to process realtime dialogue. Once the contents (dialogue) is processed, the string of characters are posted online to Twitter as a status update. 
  
- This software is an intended for an interactive art piece. I am hoping the users of the software will inform me of their work utilizing this source code, along with their process (video/photo documentation). I  personally have tested the software on an Android mini PC (specifically an MK802 model running firmware 4.0+ . Android PC here: https://www.miniand.com/products/MK802%20Android%20Mini%20PC#specifications)
+ 
+ The software is an intended for an interactive art piece. I am hoping the users of the software will inform me of their work utilizing this source code, along with their process (video/photo documentation). I  personally have tested the software on an Android mini PC (specifically an MK802 model running firmware 4.0+ . Android PC here: https://www.miniand.com/products/MK802%20Android%20Mini%20PC#specifications)
  
  ![alt tag](https://raw.githubusercontent.com/danieljayB/TweetVoice/master/TweetVoice/illustration.png)
  
