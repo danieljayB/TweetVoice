@@ -5,10 +5,12 @@ TweetVoice
 
  Android API SpeechRecognizer class integrated with Twitter API.
  
- This is an <h1> Requirements </h1>
+<h2>Requirements</h2>
 
  Processing IDE, Twitter4J, Android Mode/Android SDK 4.0
  
+ <h2>About</h2>
+
  This software utilizies the Android SpeechRecognizer class to process realtime dialogue. Once the contents (dialogue) is processed, the string of characters are posted online to Twitter as a status update. 
  
  
@@ -23,12 +25,12 @@ TweetVoice
  
  The device/source code (personally used) is continuously listening to new conversations, and once processed, posts online for all to read/follow/engage. Social platforms like Twitter, Facebook, Instagram, etc allow us to (somewhat) control our content viewed by others.  All of these platforms let us create an online version of ourselves, creating an idealozied perception viewable by our friends, followers, etc. I created  this device to un filter our offline dialogues, and directly bridge them online (specially through Twitter).
 
+<h2> Installation </h2>
 
+drag the entire 'TweetVoice' folder nested within the main TweetVoice-master folder into your sketch folder of the Processing IDE. 
 
+<h3> Afterword </h3>
 
-
-
-Installation: drag the entire 'TweetVoice' folder nested within the main TweetVoice folder into your sketch folder of the Processing IDE.
 
 You can find my personal Twitter stream utilizing this tool here:
 
