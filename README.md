@@ -5,7 +5,8 @@ TweetVoice
 
  Android API SpeechRecognizer class integrated with Twitter API.
  
- # Requirements
+ This is an <h1> Requirements </h1>
+
  Processing IDE, Twitter4J, Android Mode/Android SDK 4.0
  
  This software utilizies the Android SpeechRecognizer class to process realtime dialogue. Once the contents (dialogue) is processed, the string of characters are posted online to Twitter as a status update. 
