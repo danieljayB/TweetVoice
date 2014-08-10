@@ -11,13 +11,12 @@ TweetVoice
  
  <h2>About</h2>
 
- This software utilizies the Android SpeechRecognizer class to process realtime dialogue. Once the contents (dialogue) is processed, the string of characters are posted online to Twitter as a status update. 
+ This software utilizies the Android ```SpeechRecognizer``` class to process realtime dialogue. Once the contents (dialogue) is processed, the string of characters are posted online to Twitter as a status update. 
  
  
- The software is an intended for an interactive art piece. I am hoping the users of the software will inform me of their work utilizing this source code, along with their process (video/photo documentation). I  personally have tested the software on an Android mini PC (specifically an MK802 model running firmware 4.0+ . Android PC here: https://www.miniand.com/products/MK802%20Android%20Mini%20PC#specifications)
+ The software is an intended for an interactive art piece. I am hoping the users of the software will inform me of their work utilizing this source code, along with their process (video/photo documentation). I  personally have tested the software on an Android mini PC (<i>specifically an MK802 model running firmware 4.0+ . Android PC here: https://www.miniand.com/products/MK802%20Android%20Mini%20PC#specifications</i>)
  
- ![alt tag](https://raw.githubusercontent.com/danieljayB/TweetVoice/master/TweetVoice/illustration.png)
- 
+
  I plan to install within highly populated public locations (bars, Millennium Park in Chicago, etc) to add a level of survelliance to the dialogues throughout the community (consensually within specified locations) 
  
  
@@ -43,6 +42,7 @@ Daniel Jay Bertner
 
 http://danbertner.com
 
+<i>(clickable image linked to video documentation)</i>
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/m-x-O7O9vC4/0.jpg)](http://www.youtube.com/watch?v=m-x-O7O9vC4)
 
