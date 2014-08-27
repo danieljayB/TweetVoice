@@ -45,20 +45,11 @@ static String AccessTokenSecret = "";
 
 Twitter twitter = new TwitterFactory().getInstance();
 
-/************************************************************************
- 
- --------------------------------  DATAS ---------------------------------
- 
- *************************************************************************/
 PFont androidFont;
 String [] fontList;
 int VOICE_RECOGNITION_REQUEST_CODE = 1234;
 
-/************************************************************************
- 
- --------------------------------  SETUP ---------------------------------
- 
- *************************************************************************/
+
 void setup() {
   orientation(LANDSCAPE);
   fontList = PFont.list();
@@ -70,12 +61,7 @@ void setup() {
   PackageManager pm = getPackageManager();
   ArrayList<ResolveInfo> activities = (ArrayList<ResolveInfo>)pm.queryIntentActivities(
   new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH), 0);
-  if (activities.size() != 0) {
-   // text("il y a un recognizer!", 20, 60);
-  } 
-  else {
-    //text("Recognizer not present", 20, 60);
-  }
+ 
 }
 
 
@@ -89,19 +75,11 @@ private static AccessToken loadAccessToken() {
   return new AccessToken(AccessToken, AccessTokenSecret);
 }
 
-/************************************************************************
- 
- --------------------------------  DRAW ---------------------------------
- 
- *************************************************************************/
+
  
 void draw() {
 }
-/************************************************************************
- 
- --------------------------------  EVENTS ---------------------------------
- 
- *************************************************************************/
+
  
 void mousePressed() {
   startVoiceRecognitionActivity();
