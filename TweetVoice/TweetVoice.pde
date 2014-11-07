@@ -54,7 +54,10 @@ static String AccessTokenSecret = "";
 
 Twitter twitter = new TwitterFactory().getInstance();
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 PFont androidFont;
 String [] fontList;
 int VOICE_RECOGNITION_REQUEST_CODE = 1234;
@@ -68,6 +71,10 @@ public SpeechRecognizer sr;
 boolean post = false;
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> FETCH_HEAD
 void setup() {
   size(displayWidth, displayHeight);
   //orientation(LANDSCAPE);
@@ -76,6 +83,14 @@ void setup() {
   textFont(androidFont);
   loginTwitter();
 
+<<<<<<< HEAD
+=======
+
+  PackageManager pm = getPackageManager();
+  ArrayList<ResolveInfo> activities = (ArrayList<ResolveInfo>)pm.queryIntentActivities(
+  new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH), 0);
+ 
+>>>>>>> FETCH_HEAD
 }
 
 
@@ -89,11 +104,7 @@ private static AccessToken loadAccessToken() {
   return new AccessToken(AccessToken, AccessTokenSecret);
 }
 
-/************************************************************************
- 
- --------------------------------  DRAW ---------------------------------
- 
- *************************************************************************/
+
  
 void draw() {
   
@@ -118,11 +129,7 @@ void draw() {
 
 
 }
-/************************************************************************
- 
- --------------------------------  EVENTS ---------------------------------
- 
- *************************************************************************/
+
  
 void mousePressed() {
 
