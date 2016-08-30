@@ -36,11 +36,6 @@ You can find my personal Twitter stream utilizing this tool here:
 https://twitter.com/chicagodialogue
 
 
-Cheers,
-
-Daniel Jay Bertner
-
-http://danbertner.com
 
 <i>(clickable image linked to video documentation)</i>
 
